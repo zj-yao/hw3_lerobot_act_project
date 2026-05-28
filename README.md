@@ -9,6 +9,24 @@ The experiment compares two ACT policies:
 
 Both policies are evaluated zero-shot on the unseen CALVIN environment D using offline Action L1 error. The assignment allows reporting either Success Rate or action error; this project uses action error because the full interactive CALVIN rollout environment was not required for the submitted experiment.
 
+## Project Status
+
+Status: submission-ready except for personal/group metadata in the report title block.
+
+Completed items:
+
+- ACT-A training on CALVIN environment A: complete, 200000 steps.
+- ACT-ABC training on mixed CALVIN environments A+B+C: complete, 200000 steps.
+- Zero-shot evaluation on unseen environment D: complete, offline Action L1 over 8 checkpoints per model.
+- Required curves: complete, exported from SwanLab dashboard and included in the report.
+- TeX report and compiled PDF: complete.
+- Public GitHub repository: https://github.com/zj-yao/hw3_lerobot_act_project
+- Model weight archive: https://drive.google.com/open?id=15B58jcmFPQCqZvG22sxzH-t9v89DGO9u
+
+Remaining manual fields:
+
+- Fill in group member name(s), student ID(s), and division of work in `report/final_report.tex` before final submission.
+
 ## Repository Structure
 
 ```text
