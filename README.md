@@ -183,9 +183,12 @@ Weights are not included in this repository because each run contains large chec
 
 Model weight download link:
 
-```text
-TODO: fill cloud storage URL
-```
+https://drive.google.com/open?id=15B58jcmFPQCqZvG22sxzH-t9v89DGO9u
+
+The uploaded archive contains the inference `pretrained_model` directories for both final 200K checkpoints:
+
+- `ACT-A_200000/pretrained_model`
+- `ACT-ABC_200000/pretrained_model`
 
 Expected final checkpoint paths on the training machine:
 
