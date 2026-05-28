@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Local large artifacts
+data/
+datasets/
+checkpoints/
+logs/
+eval_outputs/
+swanlab_logs/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+
+# Local environments
+.env
+.venv/
+venv/

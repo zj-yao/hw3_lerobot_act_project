@@ -1,0 +1,23 @@
+name: dl_hw3_lerobot_act
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.5
+  - torchvision
+  - pytorch-cuda=12.1
+  - pandas
+  - matplotlib
+  - pillow
+  - pip
+  - pip:
+      - "lerobot==0.3.3"
+      - "datasets>=2.19"
+      - "huggingface_hub>=0.23"
+      - "safetensors>=0.4"
+      - "pyarrow>=15"
+      - "opencv-python"
+      - "av"
+      - "swanlab[dashboard]>=0.7.19"
